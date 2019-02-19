@@ -8,11 +8,34 @@
   <meta name="description" content="Instant Breathing Helper">
   <meta name="author" content="James Levine">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
+    .dot {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 250px;
+      height: 250px;
+      transform: translate(-50%, -50%);
+      background-color: blue;
+      border-radius: 50%;
+      display; inline;
+      animation-name: example;
+      animation-duration: 7s;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes example {
+        from   {width:250px; height: 250px;}
+        to  {width:500px; height: 500px;}
+}
+  </style>
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+  <div class="dot"></div>
+  <script></script>
 </body>
 </html>
